@@ -1,0 +1,128 @@
+style.css
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;600;800&display=swap');
+html * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+  body{
+  font-family: 'Jost', sans-serif;
+}
+
+h1 {
+  background-color: #A52A2A;
+  background-image: url("livros.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  border-top: 10px solid #FF8C00;
+  border-bottom: 10px solid #FF8C00;
+  color: blue;
+  font-size: 68px;
+  font-weight: 40px;
+  padding: 38px 34px;
+  text-shadow: 5px 5px 5px white;
+  border-radius: 10px;
+  text-align: center;
+  }
+
+main.container {
+  width: 100vw;
+  margin: auto;
+
+}
+nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+nav > a {
+  border-bottom: 4px solid blue;
+  color: #FF8C00;
+  font-size: 25px;
+  padding: 20px 20px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s;
+
+  }
+nav > a:hover {
+  background-color: blue;
+  border-bottom: 4px solid #00008B;
+}
+
+img {
+  box-shadow: 4px 4px 4px 4px #424242;
+  max-width: 90%;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h2 {
+  border-bottom: 1px solid #ccc;
+  color: #424242;
+  font-size: 32px;
+  margin-bottom: 22px;
+}
+p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+p > a {
+  color: #0000FF;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+p > a:hover {
+  opacity: 0.8;
+}
+p > span {
+  background-color: #0000FF;
+  padding: 0 4px;
+}
+iframe {
+  display: block;
+  max-width: 20%;
+  margin: 24px auto;
+}
+footer {
+  background-color: #A52A2A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  margin-top: 24px;
+}
+footer > small {
+  color:#FFD700;
+  font-size: 28px;
+  text-shadow: 4px 4px 4px #00008B;
+}
+footer > small a {
+  color: orange;
+  text-decoration: none;
+}
+footer > small a:hover {
+  text-decoration: line-through;
+}
+
+.btn {
+  background-color: #A52A2A;
+  color:#FFD700;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  text-shadow: 4px 4px 4px #00008B;
+  font-weight: 700;
+  box-shadow: 1px 1px 2px 3px #424242;
+  tansition all: 0.4s;
+  border-radius: 8px;
+}
+  .btn:hover {
+    color:blue;
+    background-color: orange;
+  }
